@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	TestUrl        = flag.String("url", "https://localhost", "login url")
+	TestUrl        = flag.String("url", "https://localhost:443", "login url")
 	TestProductKey = flag.String("productkey", "", "product key")
 )
 
